@@ -2,6 +2,11 @@ variable "name" {
   type        = string
   description = "Name for the VPC"
 }
+variable "azs" {
+  type        = list(string)
+  description = "List of availability zones to use for the VPC"
+  default     = []
+}
 
 variable "vpc_cidr" {
   type        = string

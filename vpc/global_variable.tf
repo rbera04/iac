@@ -5,6 +5,7 @@ variable "aws_region" {
 variable "customer" { type = string }
 variable "environment" { type = string }
 variable "team" { type = string }
+
 variable "organization" { type = any }
 variable "cost_center" { type = string }
 variable "confidentiality" { type = string }
